@@ -42,4 +42,4 @@ def svg_to_gcode(svg_file, gcode_file, feed_rate=1000, hop_height=5, max_width=3
         f.write("M84 ; disable motors\n")
 
 # Use the function
-svg_to_gcode('path.svg', 'output_gcode_file2.gcode')
+svg_to_gcode('hello_world.svg', 'output_gcode_file2.gcode')
